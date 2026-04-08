@@ -1,4 +1,3 @@
-let port = "8080"
 const URL_BASE = "https://app-gastos-personales-api.onrender.com" + "/"
 
 export let end_points = {
