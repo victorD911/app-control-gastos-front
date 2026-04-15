@@ -55,7 +55,7 @@ const Login = () => {
                     Email
                   </label>
                 </div>
-                <input onChange={(e) => setEmail(e.target.value)} class="flex w-full rounded-lg border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 px-4 py-3 text-sm ring-offset-white placeholder:text-slate-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#006600] focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50" placeholder="Email" type="email" />
+                <input onChange={(e) => setEmail(e.target.value)} class="flex w-full rounded-lg border border-slate-200 bg-white px-4 py-3 text-sm ring-offset-white placeholder:text-slate-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#006600] focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50" placeholder="Email" type="email" />
               </div>
               <div class="flex flex-col gap-2">
                 <div class="flex items-center justify-between">
@@ -63,7 +63,7 @@ const Login = () => {
                     Password
                   </label>
                 </div>
-                <input onChange={(e) => setPassword(e.target.value)} class="flex w-full rounded-lg border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 px-4 py-3 text-sm ring-offset-white placeholder:text-slate-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#006600] focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50" placeholder="••••••••" type="password" />
+                <input onChange={(e) => setPassword(e.target.value)} class="flex w-full rounded-lg border border-slate-200 bg-white px-4 py-3 text-sm ring-offset-white placeholder:text-slate-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#006600] focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50" placeholder="••••••••" type="password" />
               </div>
               <div class="flex flex-col gap-4 pt-4">
                 <button onClick={signIn} type="button" class="inline-flex items-center justify-center rounded-lg bg-[#006600] px-4 py-3 text-sm font-bold text-white transition-colors hover:bg-[#006600]/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#006600] focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50">
